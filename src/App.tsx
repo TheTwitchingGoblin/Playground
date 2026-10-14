@@ -7,10 +7,13 @@ import Header from "./components/Header";
 import Fruits from "./components/Fruits";
 import Fruit from "./components/Fruit";
 
+import ConditionalComponent from "./components/ConditionalComponent";
+
 function App() {
   return (
     <>
       <Fruits />
+      <ConditionalComponent />
     </>
   );
 }
